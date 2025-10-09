@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui" ;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: prevent text from being hidden behind the fixed navbar when using hash links */
+section {
+  scroll-margin-top: 6rem; /* matches ~navbar height */
+}
