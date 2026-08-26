@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { GraduationCap } from "lucide-react"; // Icon for education
 import mapleLogo from "../assets/maple.png"; // replace with your actual logo
-import aiubLogo from "../assets/aiub.png";       // replace with your actual logo
+import aiubLogo from "../assets/aiub.png"; // replace with your actual logo
 
 const Education = () => {
   // Animation variants
@@ -44,8 +44,14 @@ const Education = () => {
 
           {/* Content */}
           <div>
-            <img src={mapleLogo} alt="Maple Leaf" className="w-14 h-14 mb-2 object-contain" />
-            <h2 className="text-xl font-semibold">Maple Leaf International School</h2>
+            <img
+              src={mapleLogo}
+              alt="Maple Leaf"
+              className="w-14 h-14 mb-2 object-contain"
+            />
+            <h2 className="text-xl font-semibold">
+              Maple Leaf International School
+            </h2>
             <p className="text-gray-300">O Levels - 2018</p>
             <p className="text-gray-300">A Levels – 2021</p>
           </div>
@@ -66,11 +72,17 @@ const Education = () => {
 
           {/* Content */}
           <div>
-            <img src={aiubLogo} alt="AIUB" className="w-14 h-14 mb-2 object-contain" />
-            <h2 className="text-xl font-semibold">American International University-Bangladesh</h2>
+            <img
+              src={aiubLogo}
+              alt="AIUB"
+              className="w-14 h-14 mb-2 object-contain"
+            />
+            <h2 className="text-xl font-semibold">
+              American International University-Bangladesh
+            </h2>
             <p className="text-gray-300">
               BSc in Computer Science & Engineering <br />
-              Major in Software Engineering – Expected 2025
+              Major in Software Engineering
             </p>
           </div>
         </motion.div>
