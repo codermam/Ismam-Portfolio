@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import portfolioImg from "../assets/crud.png";
+// import portfolioImg from "../assets/crud.png";
 import jado from "../assets/jado.png";
-import mernImg from "../assets/mern.png";
+// import mernImg from "../assets/mern.png";
 // Add real screenshots when available:
 import tokoImg from "../assets/tokoapp.PNG";
 import addTaskImg from "../assets/Addtask.PNG";
