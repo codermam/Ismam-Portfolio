@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 // import portfolioImg from "../assets/crud.png";
-import jado from "../assets/jado.png";
+import jado from "../assets/jado.PNG";
 // import mernImg from "../assets/mern.png";
 // Add real screenshots when available:
 import tokoImg from "../assets/tokoapp.PNG";
